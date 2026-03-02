@@ -58,6 +58,8 @@ things = [111, piece1, "hello", advert1, [piece2]]
 
 print("things = %s" % things)
 
+#piecesFromThings = [ piece for piece in things if piece.__class__ == Piece] DOESNT CHECK LISTS
+
 piecesFromThings = [
     val
     for item in things
